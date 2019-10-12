@@ -62,23 +62,87 @@
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
-    <article id="post-google " class="post-google  post type-post status-publish format-standard hentry">
+    <article id="post-创建博客" class="post-创建博客 post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
         
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/2019/10/12/创建博客/">安装博客</a>
+    </h1>
+  
+
+        
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/12/google /" data-id="ck1n6ot2x00005sqvsuclj0kc" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/12/创建博客/" data-id="ck1no4rlf0005noqvp41vskox" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
     <div class="entry-content">
       
-        <hr>
-<p>title:google 快捷键<br>data:2019-10-12 11:07:12<br>tags:花点时间学习一下Google快捷键  提高使用率</p>
-<hr>
-<p> tags：</p>
+        <p>#目录结构</p>
+<p>##安装Node.js<br>   nodejs.org<br>   node-v\nmp-v 查看版本</p>
+<p>##安装Git<br>   git-scm.com (最后一步添加路径时选择Use Git from the Windows Command Prompt)<br>   git –version</p>
+<p>##注册Github账号<br>   github.com<br>   新建项目： 用户名.github.io</p>
+<p>##安装Hexo<br>   新建文件右键打开Git Bash Here控制窗口<br>   安装 npm i hexo-cli -g<br>   验证 hexo -v<br>   初始化 hexo init<br>   安装组件 npm install<br>   hexo g  生成静态网页<br>   hexo s  打开本地服务器，然后浏览器打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a><br>   hexo clean   清除缓存<br>   hexo d 上传到github</p>
+<p>###连接Github与本地<br>   git config –global user.name “dwjhao”<br>   git config –global user.email “<a href="mailto:1247520890@qq.com" target="_blank" rel="noopener">1247520890@qq.com</a>“<br>   查看 git config –global user.name<br>        git config –global user.email</p>
+<pre><code>生成ssh key ：ssh-keygen -t rsa -C &quot;1247520890@qq.com&quot;
+github settings中 新建一个SSH 名字随便 输入.ssh文件里的id_rsa.pub（文本记事器参看）
+查看ssh -T git@github.com  出现用户名成功     
+  更改_Cconfig.yml
+     最后一行：（小心谨慎）
+      deploy:
+        type: git
+        repository: https://github.com/dwjhao/dwjhao.github.io
+        branch: master</code></pre><p>###写文章、发布文章<br>   在source/_posts  新建.md文件<br>   hexo g  生成静态文档<br>   hexo d  上传到github</p>
+<p>###主题修改<br>  在 hexo.io/themes/index.html 找到喜欢的主题  里面有安装方法： git clone <a href="https://github.com/huweihuang/hexo-theme-huweihuang.git" target="_blank" rel="noopener">https://github.com/huweihuang/hexo-theme-huweihuang.git</a> ./hexo-huweihuang<br>  在 _Cconfig.yml  更改themes为themes文件库所选主题名</p>
+<h4 id="国内快速访问"><a href="#国内快速访问" class="headerlink" title="国内快速访问"></a>国内快速访问</h4><p> coding上注册；</p>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2019/10/12/创建博客/">
+    <time datetime="2019-10-12T10:05:48.000Z" class="entry-date">
+        2019-10-12
+    </time>
+</a>
+    
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-google " class="post-google  post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/2019/10/12/google /">google 快捷键</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/12/google /" data-id="ck1no4rl10001noqv4y5r8wnr" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p> tags：</p>
 <ul>
 <li>Google 快捷键</li>
 </ul>
@@ -115,6 +179,9 @@
 </a>
     
     
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/花点时间学习一下Google快捷键-提高使用率/">花点时间学习一下Google快捷键  提高使用率</a></li></ul>
+
     </footer>
 </article>
 
@@ -139,7 +206,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/09/test-my-site/" data-id="ck1n6ot3200025sqv01mgr8b4" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/09/test-my-site/" data-id="ck1no4rld0004noqv19je5ces" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -166,47 +233,69 @@
 
 
   
-    <article id="post-创建博客" class="post-创建博客 post type-post status-publish format-standard hentry">
+    <article id="post-atom使用简介" class="post-atom使用简介 post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
         
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/2019/10/09/atom使用简介/">atom的使用心得</a>
+    </h1>
+  
+
+        
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/08/创建博客/" data-id="ck1n6ot3100015sqvisjm8kin" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/10/09/atom使用简介/" data-id="ck1no7o2d00005cqvm8zu43jq" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
     <div class="entry-content">
       
-        <p>#目录结构</p>
-<p>##安装Node.js<br>   nodejs.org<br>   node-v\nmp-v 查看版本</p>
-<p>##安装Git<br>   git-scm.com (最后一步添加路径时选择Use Git from the Windows Command Prompt)<br>   git –version</p>
-<p>##注册Github账号<br>   github.com<br>   新建项目： 用户名.github.io</p>
-<p>##安装Hexo<br>   新建文件右键打开Git Bash Here控制窗口<br>   安装 npm i hexo-cli -g<br>   验证 hexo -v<br>   初始化 hexo init<br>   安装组件 npm install<br>   hexo g  生成静态网页<br>   hexo s  打开本地服务器，然后浏览器打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a><br>   hexo clean   清除缓存<br>   hexo d 上传到github</p>
-<p>###连接Github与本地<br>   git config –global user.name “dwjhao”<br>   git config –global user.email “<a href="mailto:1247520890@qq.com" target="_blank" rel="noopener">1247520890@qq.com</a>“<br>   查看 git config –global user.name<br>        git config –global user.email</p>
-<pre><code>生成ssh key ：ssh-keygen -t rsa -C &quot;1247520890@qq.com&quot;
-github settings中 新建一个SSH 名字随便 输入.ssh文件里的id_rsa.pub（文本记事器参看）
-查看ssh -T git@github.com  出现用户名成功     
-  更改_Cconfig.yml
-     最后一行：（小心谨慎）
-      deploy:
-        type: git
-        repository: https://github.com/dwjhao/dwjhao.github.io
-        branch: master</code></pre><p>###写文章、发布文章<br>   在source/_posts  新建.md文件<br>   hexo g  生成静态文档<br>   hexo d  上传到github</p>
-<p>###主题修改<br>  在 hexo.io/themes/index.html 找到喜欢的主题  里面有安装方法： git clone <a href="https://github.com/huweihuang/hexo-theme-huweihuang.git" target="_blank" rel="noopener">https://github.com/huweihuang/hexo-theme-huweihuang.git</a> ./hexo-huweihuang<br>  在 _Cconfig.yml  更改themes为themes文件库所选主题名</p>
+        <h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><ol>
+<li>命令面板： Ctrl+Shift+P 模糊搜索Atom中和插件中定义的所有命令</li>
+<li>打开文件：Ctrl+O 文件夹：Ctrl+shift+O</li>
+<li>目录树栏：Ctrl+\</li>
+<li>搜索目录中的文件： Ctrl+T | Ctrl+P</li>
+<li>搜索一个当前打开的文件：Ctrl+B</li>
+<li>搜索一个新建的或更改过的文件：Ctrl+Shift+B</li>
+</ol>
+<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><p>  安装（ settings | cmd）</p>
+<h3 id="文本编辑"><a href="#文本编辑" class="headerlink" title="文本编辑"></a>文本编辑</h3><p> *整行文本交换： atrl+up|down<br> *光标快速移动： 行：列<br> *整行选择： shift+up | down<br> *复制当前行：Cmd+Shift+D<br> *删除当前行: Ctrl+Shift+K<br> *多光标：ctrl+鼠标点击位置</p>
+<h4 id="代码片段"><a href="#代码片段" class="headerlink" title="代码片段"></a>代码片段</h4><p> tab</p>
+<p> snippet:</p>
+<ol>
+<li>‘source.js’</li>
+<li>‘console.log’</li>
+<li>‘predix’:’log’</li>
+<li>‘body’:’console.log(${1:”crash”});$2’<br>使用： console.log(“crash”)</li>
+</ol>
+<ul>
+<li>自动补全插件：autocomplete-plus</li>
+<li>代码折叠<br>Ctrl + Alt + Shift + { : 折叠（fold）所有代码<br>Ctrl + Alt + Shift + } : 打开（unfold）所有代码</li>
+<li>预览： ctrl+shift+m</li>
+<li>代码类型： ctrl+shift+L</li>
+<li>拼写检查： Ctrl+Shift+;</li>
+<li>开发工具： Ctrl+Shift+I</li>
+<li>Markdown-Writer 插件编写.md文件</li>
+</ul>
 
       
     </div><!-- .entry-content -->
 
     <footer class="entry-meta">
-    <a href="/2019/10/08/创建博客/">
-    <time datetime="2019-10-08T08:14:50.142Z" class="entry-date">
-        2019-10-08
+    <a href="/2019/10/09/atom使用简介/">
+    <time datetime="2019-10-09T10:05:48.000Z" class="entry-date">
+        2019-10-09
     </time>
 </a>
     
     
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/atom/">atom</a></li></ul>
+
     </footer>
 </article>
 
@@ -239,7 +328,11 @@ github settings中 新建一个SSH 名字随便 输入.ssh文件里的id_rsa.pub
       <ul>
         
           <li>
-            <a href="/2019/10/12/google /">(no title)</a>
+            <a href="/2019/10/12/创建博客/">安装博客</a>
+          </li>
+        
+          <li>
+            <a href="/2019/10/12/google /">google 快捷键</a>
           </li>
         
           <li>
@@ -247,7 +340,7 @@ github settings中 新建一个SSH 名字随便 输入.ssh文件里的id_rsa.pub
           </li>
         
           <li>
-            <a href="/2019/10/08/创建博客/">(no title)</a>
+            <a href="/2019/10/09/atom使用简介/">atom的使用心得</a>
           </li>
         
       </ul>
@@ -256,8 +349,22 @@ github settings中 新建一个SSH 名字随便 输入.ssh文件里的id_rsa.pub
 
   
     
+  <aside class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-content">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/花点时间学习一下Google快捷键-提高使用率/">花点时间学习一下Google快捷键  提高使用率</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </aside>
+
   
     
+  <aside class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-content tagcloud">
+      <a href="/tags/atom/" style="font-size: 10px;">atom</a> <a href="/tags/花点时间学习一下Google快捷键-提高使用率/" style="font-size: 10px;">花点时间学习一下Google快捷键  提高使用率</a>
+    </div>
+  </aside>
+
   
 </div>
       </div>
